@@ -1,3 +1,3 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
-RUN pip install --no-cache-dir poetry==1.8.2
+RUN pip install --no-cache-dir poetry==2.0.1
